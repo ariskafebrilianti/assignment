@@ -1,6 +1,6 @@
 import { useState } from "react";
 /*import downloadJSON from './components/downloadData'*/
-import { dataGrade } from "./components/DraftTable";
+/*import { dataGrade } from "./components/DraftTable"*/
 
 export default function App() {
   const [data] = useState([
@@ -14,7 +14,8 @@ export default function App() {
     { id: 8, name: "Mahasiswa 8" },
     { id: 9, name: "Mahasiswa 9" },
     { id: 10, name: "Mahasiswa 10" },
-  ]);
+  ],
+  );
 
   return (
     <div>
@@ -60,4 +61,5 @@ export default function App() {
       </button>
     </div>
   );
+  
 }

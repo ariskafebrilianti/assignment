@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-function downloadJSON() {
+/*function downloadJSON() {
   var table = document.getElementById('formGrade');
   var data = [];
 
@@ -31,4 +31,4 @@ function downloadJSON() {
   link.click();
 
   URL.revokeObjectURL(url);
-}
+}*/
